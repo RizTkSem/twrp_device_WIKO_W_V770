@@ -1,4 +1,4 @@
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/twrp_W_V770.mk
 
-COMMON_LUNCH_CHOICES := twrp_W_V770-eng
+COMMON_LUNCH_CHOICES := twrp_W_V770-user
