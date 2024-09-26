@@ -59,7 +59,6 @@ AB_OTA_PARTITIONS += \
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
-BOARD_KERNEL_CMDLINE += androidboot.force_normal_boot=1
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x11a88000
@@ -159,7 +158,7 @@ TW_EXCLUDE_APEX := false
 TW_INCLUDE_RESETPROP := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_NTFS_3G := true
-TW_DEFAULT_LANGUAGE := ru-RU
+TW_DEFAULT_LANGUAGE := en
 ### языки
 TW_EXTRA_LANGUAGES := false
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
@@ -174,9 +173,9 @@ TW_EXCLUDE_TWRPAPP := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 #TW_SCREEN_BLANK_ON_BOOT := true
 TW_NO_SCREEN_BLANK := true
-#TW_HAS_MTP := true
+TW_HAS_MTP := true
 # Remove MTP support
-TW_EXCLUDE_MTP := true
+TW_EXCLUDE_MTP := false
 
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 20.1.0
@@ -188,7 +187,7 @@ TW_EXTERNAL_STORAGE_PATH := "/external_sd"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 TW_DEFAULT_EXTERNAL_STORAGE := true
 
-TW_CRYPTO_FS_TYPE := "ext4"
+TW_CRYPTO_FS_TYPE := "f2fs"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
@@ -201,5 +200,5 @@ TW_DISABLE_TTF:= true
 # ToyBox (disables busybox?)
 TW_USE_TOOLBOX := true
 #TW_EXCLUDE_TZDATA := true
-TW_EXCLUDE_NANO := true
-TW_EXCLUDE_BASH := true
+TW_EXCLUDE_NANO := false
+TW_EXCLUDE_BASH := false
