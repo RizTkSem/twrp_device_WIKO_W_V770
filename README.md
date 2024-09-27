@@ -13,7 +13,7 @@ SIM card| Nano-SIM - Wi-Fi: a, b, g, n, ac, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi D
 
 ### Blocking checks
 
-- [ ] Correct screen/recovery size
+- [*] Correct screen/recovery size
 - [ ] Working Touch, screen
 - [ ] Backup to internal/microSD
 - [ ] Restore from internal/microSD
