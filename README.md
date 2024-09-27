@@ -13,46 +13,47 @@ SIM card| Nano-SIM - Wi-Fi: a, b, g, n, ac, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi D
 
 ### Blocking checks
 
-- [+] Correct screen/recovery size
-- [ ] Working Touch, screen
-- [ ] Backup to internal/microSD
-- [ ] Restore from internal/microSD
-- [ ] reboot to system
-- [ ] ADB
+- [ ] Correct screen/recovery size
+- [x] Working Touch, screen
+- [x] Backup to internal/microSD
+- [x] Restore from internal/microSD
+- [x] reboot to system
+- [x] ADB
 
 ### Medium checks
 
 - [ ] update.zip sideload
 - [ ] UI colors (red/blue inversions)
-- [ ] Screen goes off and on
-- [ ] F2FS/EXT4 Support, exFAT/NTFS where supported
-- [ ] all important partitions listed in mount/backup lists
+- [x] Screen goes off and on
+- [x] F2FS/EXT4 Support, exFAT/NTFS where supported
+- [x] all important partitions listed in mount/backup lists
 - [ ] backup/restore to/from external (USB-OTG) storage (not supported by the device) (not tested)
-- [ ] [backup/restore to/from adb](https://gerrit.omnirom.org/#/c/15943/)
-- [ ] decrypt /data
+- [x] [backup/restore to/from adb](https://gerrit.omnirom.org/#/c/15943/)
+- [x] decrypt /data
 - [ ] Correct date
 
 ### Minor checks
 
-- [ ] MTP export
-- [ ] reboot to bootloader
-- [ ] reboot to recovery
-- [ ] poweroff
-- [ ] battery level
-- [ ] temperature
+- [x] MTP support
+- [x] reboot to bootloader
+- [x] reboot to recovery
+- [x] reboot to fastboot
+- [x] poweroff
+- [x] battery level
+- [x] temperature
 - [ ] encrypted backups (no option, need to test)
 - [ ] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) (not tested)
 - [ ] USB mass storage export (not tested)
-- [ ] set brightness
-- [ ] vibrate (Doesn't work, WIP)
+- [x] set brightness
+- [x] vibrator
 - [ ] screenshot
-- [ ] partition SD card
+- [x] partition SD card
 
 ## Building
 
 ```bash
 source build/envsetup.sh
-lunch twrp_Armor_8-eng
-mka bootimage
+lunch twrp_W_V770-eng
+mka adbd bootimage
 ```
 
