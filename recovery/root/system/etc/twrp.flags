@@ -1,12 +1,12 @@
 #fstab file by lopestom for UMIDIGI_Power 5_V1.0_N_20210716 - g2139dpr_v1_gg_ym_power5n_r
-/system		        ext4	/dev/block/mapper/system_a              flags=backup=1;logical;display="System_root";slotselect
-/vendor             ext4    /dev/block/mapper/vendor_a             flags=backup=1;logical;display="Vendor_a";slotselect
-/product            ext4    /dev/block/mapper/product_a             flags=backup=1;logical;display="Product_a";slotselect
+/system		        ext4	/dev/block/mapper/system_a              flags=backup=1;logical;display="System"
+/vendor             ext4    /dev/block/mapper/vendor_a             flags=backup=1;logical;display="Vendor"
+/product            ext4    /dev/block/mapper/product_a             flags=backup=1;logical;display="Product"
 
 # Images
-/system_image	    emmc  	/dev/block/mapper/system_a            flags=backup=1;wipeingui;canbewiped;flashimg=1;slotselect;logical;display="System Image_a"
-/vendor_image	    emmc  	/dev/block/mapper/vendor_a             flags=backup=1;wipeingui;canbewiped;flashimg=1;slotselect;logical;display="Vendor Image_a"
-/product_image	    emmc	/dev/block/mapper/product_a             flags=backup=1;wipeingui;canbewiped;flashimg=1;slotselect;logical;display="Product Image_a"
+/system_image	    emmc  	/dev/block/mapper/system_a            flags=backup=1;wipeingui;canbewiped;flashimg=1;slotselect;logical;display="System"
+/vendor_image	    emmc  	/dev/block/mapper/vendor_a             flags=backup=1;wipeingui;canbewiped;flashimg=1;slotselect;logical;display="Vendor"
+/product_image	    emmc	/dev/block/mapper/product_a             flags=backup=1;wipeingui;canbewiped;flashimg=1;slotselect;logical;display="Product"
 
 # Core Partitions
 /metadata             ext4    /dev/block/platform/bootdevice/by-name/md_udc         flags=backup=1;display="metadata";mounttodecrypt
