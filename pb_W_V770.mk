@@ -32,7 +32,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := W_V770
-PRODUCT_NAME := twrp_W_V770
+PRODUCT_NAME := pb_W_V770
 PRODUCT_BRAND := WIKO
 PRODUCT_MODEL := W-V770
 PRODUCT_MANUFACTURER := HXY
