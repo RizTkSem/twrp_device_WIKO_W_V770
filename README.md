@@ -13,7 +13,7 @@ SIM card| Nano-SIM - Wi-Fi: a, b, g, n, ac, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi D
 
 ### Blocking checks
 
-- [ ] Correct screen/recovery size
+- [x] Correct screen/recovery size
 - [x] Working Touch, screen
 - [x] Backup to internal/microSD
 - [x] Restore from internal/microSD
@@ -23,10 +23,9 @@ SIM card| Nano-SIM - Wi-Fi: a, b, g, n, ac, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi D
 ### Medium checks
 
 - [ ] update.zip sideload
-- [ ] UI colors (red/blue inversions)
 - [x] Screen goes off and on
 - [x] F2FS/EXT4 support
-- [ ] all important partitions listed in mount/backup lists
+- [x] all important partitions listed in mount/backup lists
 - [ ] backup/restore to/from external (USB-OTG) storage (not supported by the device) (not tested)
 - [x] [backup/restore to/from adb](https://gerrit.omnirom.org/#/c/15943/)
 - [x] decrypt /data
@@ -34,7 +33,7 @@ SIM card| Nano-SIM - Wi-Fi: a, b, g, n, ac, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi D
 
 ### Minor checks
 
-- [ ] MTP support
+- [x] MTP support
 - [x] reboot to bootloader
 - [x] reboot to recovery
 - [x] reboot to fastboot
