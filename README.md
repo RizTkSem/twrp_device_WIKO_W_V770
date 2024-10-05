@@ -22,7 +22,8 @@
 
 ## Device picture
 
-![Wiko T3](https://fdn2.gsmarena.com/vv/bigpic/wiko-t3.jpg)
+![Wiko T3 Rose Gold](https://fdn2.gsmarena.com/vv/bigpic/wiko-t3.jpg)
+![Wiko T3 Black](https://m.media-amazon.com/images/I/51hJmpAB9IL.__AC_SX300_SY300_QL70_FMwebp_.jpg)
 
 ## Building
 - FOR TWRP
