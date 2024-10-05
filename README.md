@@ -1,4 +1,4 @@
-# TWRP device trees for WIKO T3 (W-V770) - 4GB RAM - 128GB ROM
+# TWRP/OFRP device trees for WIKO T3 (W-V770) - 4GB RAM - 128GB ROM
 # MTK Helio P35 - mt6765
 ## Specs => https://ru.wikomobile.com/m3410-wiko-t3
 Component Type | Details
@@ -45,7 +45,7 @@ SIM card| Nano-SIM - Wi-Fi: a, b, g, n, ac, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi D
 - [ ] USB mass storage export (not tested)
 - [x] set brightness
 - [x] vibrator
-- [ ] screenshot
+- [x] screenshot
 - [x] partition SD card
 
 ## Building
