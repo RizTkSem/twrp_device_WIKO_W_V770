@@ -1,52 +1,26 @@
-# TWRP/OFRP device trees for WIKO T3 (W-V770) - 4GB RAM - 128GB ROM
-# MTK Helio P35 - mt6765
-## Specs => https://ru.wikomobile.com/m3410-wiko-t3
-Component Type | Details
--------:|:-------------------------
-Display: 6.6 in, IPS, 720 x 1600 pixels, 24 bit
-OS| Android 11 - Soc: MediaTek Helio P35 - Platform: mt6765
-RAM| 4 GB, 
-Storage| 128 GB - USB: 2.0, USB Type-C - Memory cards: microSD, microSDHC, microSDXC
-Battery| 5000 mAh, Li-Polymer
-Bluetooth| 5.0 - Positioning: GPS, A-GPS, GLONASS, BeiDou, Galileo
-SIM card| Nano-SIM - Wi-Fi: a, b, g, n, ac, Wi-Fi Hotspot, Wi-Fi Direct, Wi-Fi Display
+# TWRP/OFRP device trees for WIKO T3 (W-V770)
 
-### Blocking checks
+## Device specifications
 
-- [x] Correct screen/recovery size
-- [x] Working Touch, screen
-- [x] Backup to internal/microSD
-- [x] Restore from internal/microSD
-- [x] reboot to system
-- [x] ADB
+| Feature     | Specification
+| :-----------|:-------------
+| Chipset     | Mediatek MT6765 Helio P35 (12 nm)
+| CPU         | Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)
+| GPU         | PowerVR GE8320 (680 Mhz)
+| Memory      | 4 GB LPDDR3/LPDDR4x RAM
+| Storage     | 128 GB (EMMC 5.1)
+| SIM         | Hybrid SIM (Nano-SIM, dual stand-by)
+| Battery     | Li-Ion 5000 mAh, non-removable
+| Shipped OS  | Android 11.0
+| Dimensions  | 165.3 x 76 x 9.2 mm (6.51 x 2.99 x 0.36 in)
+| Display     | 6.6", 720x1600 pixels, IPS LCD, 60Hz
+| Camera      | 48 MP (main), 5 MP (ultrawide), 2 MP (macro), 8 MP (front)
+| Comms       | GSM/HSPA/LTE, Wi-Fi 802.11 b/g/n, Bluetooth 5.0 A2DP LE
+| Sensors     | Fingerprint (side-mounted), accelerometer, proximity
 
-### Medium checks
+## Device picture
 
-- [ ] update.zip sideload
-- [x] Screen goes off and on
-- [x] F2FS/EXT4 support
-- [x] all important partitions listed in mount/backup lists
-- [ ] backup/restore to/from external (USB-OTG) storage (not supported by the device) (not tested)
-- [x] [backup/restore to/from adb](https://gerrit.omnirom.org/#/c/15943/)
-- [x] decrypt /data
-- [ ] Correct date
-
-### Minor checks
-
-- [x] MTP support
-- [x] reboot to bootloader
-- [x] reboot to recovery
-- [x] reboot to fastboot
-- [x] poweroff
-- [x] battery level
-- [x] temperature
-- [ ] encrypted backups (no option, need to test)
-- [ ] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) (not tested)
-- [ ] USB mass storage export (not tested)
-- [x] set brightness
-- [x] vibrator
-- [x] screenshot
-- [x] partition SD card
+![Wiko T3](https://fdn2.gsmarena.com/vv/bigpic/wiko-t3.jpg)
 
 ## Building
 
