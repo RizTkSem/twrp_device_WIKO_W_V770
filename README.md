@@ -22,7 +22,7 @@
 
 ## Device picture
 
-![Wiko T3](https://fdn2.gsmarena.com/vv/bigpic/wiko-t3.jpg](https://icegames.co/image/cache/catalog/WIKO%20Smartphones/T03/Huawei-Wiko-T3-128gb-4-Ram-550x550.jpg)
+![Wiko T3](https://icegames.co/image/cache/catalog/WIKO%20Smartphones/T03/Huawei-Wiko-T3-128gb-4-Ram-550x550.jpg)
 
 ## Building
 - FOR TWRP
