@@ -25,10 +25,10 @@
 ![Wiko T3](https://fdn2.gsmarena.com/vv/bigpic/wiko-t3.jpg)
 
 ## Building
-
+- FOR TWRP
 ```bash
 source build/envsetup.sh
 lunch twrp_W_V770-eng
 mka adbd bootimage
 ```
-
+- FOR ORANGEFOX YOU NEED TO GO HERE https://wiki.orangefox.tech/en/dev/building
