@@ -1,3 +1,4 @@
+![OFRP](https://i.ibb.co/4WgF7pR/banner-2.png "OFRP")
 # TWRP/OFRP device trees for WIKO T3 (W-V770)
 
 ## Device specifications
