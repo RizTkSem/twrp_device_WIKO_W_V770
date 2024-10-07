@@ -32,4 +32,4 @@ lunch twrp_W_V770-eng
 mka adbd bootimage
 ```
 - FOR ORANGEFOX YOU NEED TO GO HERE https://wiki.orangefox.tech/en/dev/building
-- Note: decryption only work with android 11 only!
+- **NOTE**: Decryption only work with android 11 only!
