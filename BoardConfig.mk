@@ -157,7 +157,7 @@ TW_INCLUDE_RESETPROP := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_NTFS_3G := false
 TW_DEFAULT_LANGUAGE := en
-### языки
+
 TW_EXTRA_LANGUAGES := false
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 TW_DEVICE_VERSION := rizzz
@@ -188,14 +188,12 @@ TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
 
-### добавлено 28.08.24 ###
 # Removes USB Storage capability
 TW_NO_USB_STORAGE := true
 # Remove TrueType fonts
-TW_DISABLE_TTF:= true
+TW_DISABLE_TTF := true
 # ToyBox (disables busybox?)
 TW_USE_TOOLBOX := true
-#TW_EXCLUDE_TZDATA := true
 TW_EXCLUDE_TZDATA := true
 TW_EXCLUDE_LPDUMP := true
 
