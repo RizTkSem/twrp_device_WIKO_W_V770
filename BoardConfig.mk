@@ -196,8 +196,6 @@ TW_DISABLE_TTF:= true
 # ToyBox (disables busybox?)
 TW_USE_TOOLBOX := true
 #TW_EXCLUDE_TZDATA := true
-TW_EXCLUDE_NANO := false
-TW_EXCLUDE_BASH := false
 TW_EXCLUDE_TZDATA := true
 TW_EXCLUDE_LPDUMP := true
 
