@@ -22,7 +22,7 @@
 
 ## Device picture
 
-![Wiko T3](https://icegames.co/image/cache/catalog/WIKO%20Smartphones/T03/Huawei-Wiko-T3-128gb-4-Ram-550x550.jpg)
+![Wiko T3](https://media.zid.store/2d52c80a-54a2-4d51-becf-1c1f3b4e6f81/5104f8ad-65ec-4945-b7bb-dc87f52bb9a8.jpg "WikoT3")
 
 ## Building
 - FOR TWRP
